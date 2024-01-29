@@ -1,0 +1,33 @@
+.sobre-mim {
+    margin: 0px;
+}
+
+.sobre-mim img {
+    display: none;
+}
+
+.container-profile {
+    margin-bottom: 2rem;
+}
+
+
+.container-profile h2 {
+    margin-bottom: .25rem;
+}
+
+.sobre-mim p {
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+.container-desenvolvimento-pessoal {
+    overflow-y: auto;
+    /* background-color: red; */
+    max-height: 400px;
+    padding: 1rem;
+    max-width: 500px;
+}
+
+.container-desenvolvimento-pessoal h4 {
+    margin-bottom: .5rem;
+}

@@ -1,0 +1,70 @@
+@media screen and (min-width: 1200px) {
+
+    .sobre-mim {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
+
+    .container-profile {
+        grid-column: 1/6;
+        grid-row: 1/5;
+
+    }
+
+
+    .tittle-desenvolvimento {
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+
+
+    .container-desenvolvimento-pessoal {
+        grid-column: 1/6;
+        grid-row: 5/13;
+    }
+
+
+    .sobre-mim img {
+        display: block;
+        grid-column: 8/13;
+        grid-row: 1/10;
+        object-fit: cover;
+        height: 600px;
+        /* clip-path: circle(50% at 50% 50%); */
+
+    }
+
+    .container-skils-tittle {
+        max-width: 600px;
+    }
+
+    .skils article {
+        max-width: 500px;
+        height: auto;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .projetos-desenvolvidos {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
+
+    .container-text {
+        grid-column: 1/7;
+        grid-row: 1/6;
+    }
+
+    .container-projetos {
+        grid-column: 8/12;
+        grid-row: 1/12;
+    }
+
+    .container-projetos-02 {
+        grid-column: 1/7;
+    }
+}

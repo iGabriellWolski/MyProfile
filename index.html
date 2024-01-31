@@ -15,18 +15,19 @@
     <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/media-query.css">
     <link rel="stylesheet" href="css/animacoes.css">
+    <script defer src="javaScript/index.js"></script>
     <title>Gabriel Wolski</title>
 </head>
 
 <body>
 
     <!-- Menu de Navegação -->
-    <nav>
+    <nav class="">
         <ul>
-            <li><a href="#sobre-mim">Sobre Mim</a></li>
-            <li><a href="#skils">Skils</a></li>
-            <li><a href="#projetos-desenvolvidos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a class="js-link_menu ativo" href="#sobre-mim">Home</a></li>
+            <li><a class="js-link_menu" href="#skils">Skils</a></li>
+            <li><a class="js-link_menu" href="#projetos-desenvolvidos">Projetos</a></li>
+            <li><a class="js-link_menu" href="#contato">Contato</a></li>
         </ul>
     </nav>
 
@@ -75,7 +76,7 @@
                 manutenção de um ambiente de trabalho positivo e produtivo.
             </p> <br>
         </div>
-        <img src="img/profile_sem_fundo-2.png" alt="">
+        <img src="img/logo.png" href="https://www.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_11602236.htm#query=dev&position=16&from_view=search&track=sph&uuid=0f4daaf6-d757-4255-ab2b-233113932783"></href=>
     </section>
 
     <!-- Seção Áreas de Conhecimento -->
@@ -90,34 +91,50 @@
         <article class="areas-de-conhecimento">
             <h3>Técnologias</h3>
             <ul class="tecnologias">
-                <li><i class="fa-brands fa-html5"></i><code> !DOCTYPE html</code>
+                <li><i class="fa-solid fa-code"></i> HTML
                 </li>
-                <li><i class="fa-brands fa-css3"></i><code>body { color: #f0f0f0; }
-                </code></li>
-                <li><i class="fa-brands fa-square-js"></i><code>console.log("Olá, mundo!");
-                </code></li>             
-                <li><i class="fa-brands fa-git-alt"></i><code>git commit -m "Mensagem do commit"
-                </code></li>
-                <li><i class="fa-brands fa-react"></i> <code>const element = h1 Hello, React! h1;
-                </code></li>
-                <li> <i class="fa-brands fa-sass"></i><code>$color: red; body {color: $color; }
-                </code></li>
-
-
-                <!-- Adicione mais áreas conforme necessário -->
+                <li><i class="fa-solid fa-code"></i>CSS</li>
+                <li><i class="fa-solid fa-code"></i>JavaScript</li>
+                <li><i class="fa-solid fa-code"></i>git
+                </li>
+                <li><i class="fa-solid fa-code"></i>react
+                </li>
+                <li> <i class="fa-solid fa-code"></i>sass
+                </li>
             </ul>
         </article>
+
+        <article class="areas-de-conhecimento-2 areas-de-conhecimento">
+            <h3>Design</h3>
+            <ul class="tecnologias">
+                <li><i class="fa-regular fa-image"></i>PhotoShop
+                </li>
+                <li><i class="fa-regular fa-image"></i>Adobe XD</li>
+                <li><i class="fa-regular fa-image"></i>Figma</li>
+                <li><i class="fa-regular fa-image"></i>Ilustrator</li>
+                <li><i class="fa-regular fa-image"></i>After Effects</li>
+            </ul>
+        </article>
+        <img src="img/ui.png" alt="">
     </section>
 
     <!-- Seção Projetos Desenvolvidos -->
 
-        <section class="projetos-desenvolvidos" id="projetos-desenvolvidos">
-            <div class="container-text">
-                <h2>Projetos Desenvolvidos</h2>
+    <section class="projetos-desenvolvidos" id="projetos-desenvolvidos">
+        <div class="container-text">
+            <h2>Projetos Desenvolvidos</h2>
             <h3>Descubra Minhas Criações</h3>
-            <p>Bem-vindo à galeria de projetos, um espaço dedicado a apresentar minha jornada criativa como desenvolvedor.</p><p>Navegue pelos diversos cards abaixo para explorar uma coleção de sites que desenvolvi com paixão e dedicação.</p> <p>Cada card é uma janela para um universo digital único, refletindo minha abordagem inovadora e compromisso com a excelência em cada detalhe.</p><p> De páginas responsivas a experiências interativas, este é o meu portfólio digital, onde cada projeto conta uma história única.</p> <p>Venha explorar e mergulhe nas possibilidades que a tecnologia e a criatividade podem oferecer.</p>
-    </div>
-        
+            <p>Bem-vindo à galeria de projetos, um espaço dedicado a apresentar minha jornada criativa como
+                desenvolvedor.</p>
+            <p>Navegue pelos diversos cards abaixo para explorar uma coleção de sites que desenvolvi com paixão e
+                dedicação.</p>
+            <p>Cada card é uma janela para um universo digital único, refletindo minha abordagem inovadora e compromisso
+                com a excelência em cada detalhe.</p>
+            <p> De páginas responsivas a experiências interativas, este é o meu portfólio digital, onde cada projeto
+                conta uma história única.</p>
+            <p>Venha explorar e mergulhe nas possibilidades que a tecnologia e a criatividade podem oferecer.</p>
+        </div>
+
         <div class="container-projetos">
             <div class="projeto-card">
                 <img src="img/criacao-de-site.png" alt="Projeto 1">
@@ -138,21 +155,21 @@
                 <a href="#" class="button">Ver Detalhes</a>
             </div>
         </div>
-            <div class="container-projetos-02">
-                <div class="projeto-card">
-                    <img src="img/criacao-de-site.png" alt="Projeto 1">
-                    <h3>Nome do Projeto 1</h3>
-                    <p>Descrição breve do Projeto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="button">Ver Detalhes</a>
-                </div>
-                <div class="projeto-card">
-                    <img src="img/criacao-de-site.png" alt="Projeto 1">
-                    <h3>Nome do Projeto 1</h3>
-                    <p>Descrição breve do Projeto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="button">Ver Detalhes</a>
-                </div>
+        <div class="container-projetos-02">
+            <div class="projeto-card">
+                <img src="img/criacao-de-site.png" alt="Projeto 1">
+                <h3>Nome do Projeto 1</h3>
+                <p>Descrição breve do Projeto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="button">Ver Detalhes</a>
             </div>
-     
+            <div class="projeto-card">
+                <img src="img/criacao-de-site.png" alt="Projeto 1">
+                <h3>Nome do Projeto 1</h3>
+                <p>Descrição breve do Projeto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="button">Ver Detalhes</a>
+            </div>
+        </div>
+
     </section>
 
     <!-- Seção Contato -->

@@ -8,3 +8,13 @@
     }
 }
 
+.js-anima-scroll{
+    opacity: 0;
+    transform: translateX(-2rem);
+    transition: .6s;
+}
+
+.js-anima-scroll.ativo{
+    opacity: 1;
+    transform: translateX(0rem);
+}

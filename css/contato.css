@@ -1,0 +1,28 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2 {
+    margin-bottom: .75rem;
+}
+
+.fa-github {
+    margin-right: .75rem;
+    padding: 1rem 0rem;
+}
+
+.fa-linkedin-in,
+.fa-whatsapp {
+    margin-right: .35rem;
+}
+
+.contato a {
+    padding: .25rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.contato a:hover {
+    color: #80b918;
+}

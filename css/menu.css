@@ -1,6 +1,5 @@
 @import url(animacoes.css);
 nav {
-
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +13,7 @@ nav {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 0rem 0rem 1rem 0rem;
+    z-index: 99;
 
 }
 

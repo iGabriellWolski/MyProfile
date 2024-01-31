@@ -31,8 +31,6 @@
         grid-row: 1/10;
         object-fit: cover;
         height: 600px;
-        /* clip-path: circle(50% at 50% 50%); */
-
     }
 
     .container-skils-tittle {

@@ -1,4 +1,4 @@
-.skils{
+.skils {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
@@ -11,8 +11,7 @@
 
 .windows95-card {
     max-width: 600px;
-    min-height: 250px;
-    height: auto;
+    min-height: 300px;
     background-color: #1A1A1A;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -28,6 +27,7 @@
     background-color: #141414;
 
 }
+
 .windows95-buttons {
     display: flex;
 }
@@ -49,20 +49,27 @@
 }
 
 .windows95-content {
-    padding: 2rem;
-    color: #80b918; 
+    padding: 1.75rem;
+    color: #80b918;
     letter-spacing: 2px;
 }
 
-.windows95-content ul li::before{
+
+
+.windows95-content p mark {
+    font-weight: bold;
+    animation: marker 2s infinite alternate ease-in-out;
+}
+
+
+
+.windows95-content p::before {
     content: "$";
-    margin-right: .45rem;
     color: white;
 }
 
-.windows95-content ul li::after{
-    content: "|";
-    margin-left: .75rem;
-    animation: console .75s infinite alternate ;
 
+.windows95-content p::after {
+    content: "|";
+    animation: console .6s infinite alternate;
 }

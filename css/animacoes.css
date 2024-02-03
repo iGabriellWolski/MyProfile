@@ -8,13 +8,25 @@
     }
 }
 
-.js-anima-scroll{
+@keyframes marker {
+    0% {
+        background-color: transparent;
+        color: #80B918;
+    }
+
+    100% {
+        background-color: #FFFF00;
+        color: black;
+    }
+}
+
+.js-anima-scroll {
     opacity: 0;
     transform: translateX(-2rem);
     transition: .6s;
 }
 
-.js-anima-scroll.ativo{
+.js-anima-scroll.ativo {
     opacity: 1;
     transform: translateX(0rem);
 }

@@ -1,5 +1,6 @@
 @import url(animacoes.css);
-nav {
+
+.menu {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +19,7 @@ nav {
 }
 
 
-nav ul {
+.menu__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,19 +27,19 @@ nav ul {
     column-gap: 1rem;
 }
 
-nav li {    
+.menu__item {
     font-size: 12px;
     text-decoration: none;
 }
 
-nav a {
+ .menu__link{
     color: #80b918;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
 }
 
-nav a.ativo::before {
+.menu__link.ativo::before {
     content: "\003E";
     color: white;
     display: inline;

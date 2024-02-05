@@ -10,13 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <script defer src="https://kit.fontawesome.com/dc344887ef.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/sobre-mim.css">
-    <link rel="stylesheet" href="css/skils.css">
-    <link rel="stylesheet" href="css/projetos.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/media-query.css">
-    <link rel="stylesheet" href="css/animacoes.css">
     <script defer src="javaScript/index.js"></script>
     <title>Gabriel Wolski</title>
 </head>
@@ -24,18 +17,18 @@
 <body>
 
     <!-- Menu de Navegação -->
-    <nav>
-        <ul>
-            <li><a class="js-link_menu ativo" href="#sobre-mim">Home</a></li>
-            <li><a class="js-link_menu" href="#skils">Skils</a></li>
-            <li><a class="js-link_menu" href="#projetos-desenvolvidos">Projetos</a></li>
-            <li><a class="js-link_menu" href="#contato">Contato</a></li>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link js-link_menu ativo" href="#sobre-mim">Home</a></li>
+            <li class="menu__item"><a class="menu__link js-link_menu" href="#skils">Skils</a></li>
+            <li class="menu__item"><a class="menu__link js-link_menu" href="#projetos-desenvolvidos">Projetos</a></li>
+            <li class="menu__item"><a class="menu__link js-link_menu" href="#contato">Contato</a></li>
         </ul>
     </nav>
 
     <!-- Seção Sobre Mim -->
     <section class="sobre-mim" id="sobre-mim">
-        <div class="container-profile js-anima-scroll">
+        <div class="sobre-mim__container-profile js-anima-scroll">
             <h2>Olá Mundo !</h2>
             <p> Meu nome é Gabriel Wolski, sou um entusiasta da tecnológia.
                 Com 29 anos, estou atualmente cursando Engenharia De Software na faculdade Estacio,
@@ -78,7 +71,7 @@
                 manutenção de um ambiente de trabalho positivo e produtivo.
             </p> <br>
         </div>
-        <img class="js-anima-scroll" src="img/logo.png"
+        <img class=" sobre-mim__img js-anima-scroll" src="img/logo.png"
             href="https://www.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_11602236.htm#query=dev&position=16&from_view=search&track=sph&uuid=0f4daaf6-d757-4255-ab2b-233113932783">
         </href=>
     </section>
@@ -103,7 +96,13 @@
                 </div>
             </div>
             <div class="windows95-content">
-                <p> Sou um desenvolvedor front-end comprometido em transformar ideias em interfaces envolventes e intuitivas. Minhas habilidades incluem domínio em <mark>HTML</mark>, <mark>CSS</mark> e <mark>JavaScript</mark>, utilizando frameworks como <mark>React</mark> para construir aplicações web dinâmicas Além disso, incorporo tecnologias modernas, como <mark>SASS</mark> para estilos mais dinâmicos, <mark>Webpack</mark> para otimização de pacotes, e integro <mark>APIs</mark> <mark>RESTful</mark> para uma comunicação eficiente entre o front-end e o back-end.</p>
+                <p> Sou um desenvolvedor front-end comprometido em transformar ideias em interfaces envolventes e
+                    intuitivas. Minhas habilidades incluem domínio em <mark>HTML</mark>, <mark>CSS</mark> e
+                    <mark>JavaScript</mark>, utilizando frameworks como <mark>React</mark> para construir aplicações web
+                    dinâmicas Além disso, incorporo tecnologias modernas, como <mark>SASS</mark> para estilos mais
+                    dinâmicos, <mark>Webpack</mark> para otimização de pacotes, e integro <mark>APIs</mark>
+                    <mark>RESTful</mark> para uma comunicação eficiente entre o front-end e o back-end.
+                </p>
             </div>
         </div>
 
@@ -117,7 +116,12 @@
                 </div>
             </div>
             <div class="windows95-content">
-              <p> Minha expertise abrange o design responsivo utilizando ferramentas como <mark>Figma</mark> e <mark>Sketch</mark>, proporcionando layouts fluidos e intuitivos.Em meu processo criativo, utilizo prototipagem interativa proporcionando uma prévia realista das interfaces antes da implementação. Além disso, incorporo princípios de design centrado no usuário, aprimorando a jornada do usuário através de testes de usabilidade.</p>
+                <p> Minha expertise abrange o design responsivo utilizando ferramentas como <mark>Figma</mark> e
+                    <mark>Sketch</mark>, proporcionando layouts fluidos e intuitivos.Em meu processo criativo, utilizo
+                    prototipagem interativa proporcionando uma prévia realista das interfaces antes da implementação.
+                    Além disso, incorporo princípios de design centrado no usuário, aprimorando a jornada do usuário
+                    através de testes de usabilidade.
+                </p>
             </div>
         </div>
 
@@ -194,7 +198,6 @@
         <p>&copy; 2024 Gabriel Wolski - Engenharia de Software</p>
     </footer>
 
-</body>
 </body>
 
 </html>

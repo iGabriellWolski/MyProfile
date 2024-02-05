@@ -8,7 +8,6 @@
     display: none;
 }
 
-
 .windows95-card {
     max-width: 600px;
     min-height: 300px;
@@ -25,7 +24,10 @@
     justify-content: space-between;
     padding: .75rem;
     background-color: #141414;
+}
 
+.windows95-title::before{
+    content: "";
 }
 
 .windows95-buttons {

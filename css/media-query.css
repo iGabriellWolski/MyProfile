@@ -6,7 +6,7 @@
         grid-template-rows: repeat(12, auto);
     }
 
-    .container-profile {
+    .sobre-mim__container-profile {
         grid-column: 1/6;
         grid-row: 1/5;
 
@@ -37,36 +37,36 @@
         max-width: 600px;
     }
 
-    .skils{
+    .skils {
         display: grid;
-        grid-template-rows: repeat(12,auto);
-        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12, auto);
+        grid-template-columns: repeat(12, 1fr);
     }
 
-    .container-skils-tittle{
+    .container-skils-tittle {
         grid-row: 1/2;
-        grid-column:1/6;
+        grid-column: 1/6;
         margin-bottom: 1rem;
     }
 
-    .skils{
+    .skils {
         row-gap: 0rem;
     }
 
-    .card-tecnologias{
+    .card-tecnologias {
         margin-left: 2rem;
         grid-row: 2/6;
         grid-column: 1/6;
         margin-top: 2rem;
     }
 
-    .card-design{
+    .card-design {
         margin-left: 2rem;
         grid-row: 7/12;
         grid-column: 1/6;
     }
 
-    .skils img{
+    .skils img {
         display: block;
         width: 100%;
         height: 100%;

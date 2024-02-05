@@ -1,4 +1,13 @@
-/* Reset de Estilos para garantir uma base consistente entre navegadores */
+@import url(menu.css);
+@import url(sobre-mim.css);
+@import url(skils.css);
+@import url(projetos.css);
+@import url(contato.css);
+@import url(media-query.css);
+@import url(animacoes.css);
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +17,14 @@
 }
 
 
-/* Estilos gerais para o corpo da página */
+
 body {
     line-height: 1.6;
     color: #FFFFFF;
     background-color: #0F0F0F;
 }
 
-/* Estilos para as seções principais */
+
 section,
 article {
     margin: 1rem 0;
@@ -31,7 +40,7 @@ section {
     padding-top: 80px;
 }
 
-/* Estilos para cabeçalhos de seção */
+
 h1,
 h2,
 h3,
@@ -52,13 +61,12 @@ h4 {
 
 
 
-/* Estilos para links */
 a {
     color: #80b918;
     text-decoration: none;
 }
 
-/* Estilos para listas */
+
 ul {
     list-style-type: none;
     margin-left: 20px;
@@ -76,7 +84,6 @@ li {
 
 
 
-/* Estilos para o rodapé */
 footer {
     text-align: center;
     padding: 10px;
